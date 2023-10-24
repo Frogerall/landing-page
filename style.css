@@ -85,3 +85,21 @@ button {
   font-size: 18px;
   text-align-last: center;
 }
+.quote-section {
+  background-color: #e5e7eb;
+  text-align: justify;
+  color: #1f2937ce;
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+  margin-top: 3em;
+  font-size: 36px;
+  font-style: italic;
+}
+span {
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 25px;
+  font-style: normal;
+  float: right;
+}
