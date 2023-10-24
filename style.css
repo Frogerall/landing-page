@@ -103,3 +103,16 @@ span {
   font-style: normal;
   float: right;
 }
+.cta-section {
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0.8em;
+  margin: 7em;
+}
+.cta-section button {
+  border: 2px solid white;
+}
