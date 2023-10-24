@@ -57,8 +57,31 @@ button {
   font-weight: bold;
   font-size: 18px;
 }
-.information h1 {
+.info {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  text-align: center;
+  padding: 1.3em 0;
+}
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0 15em;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+}
+.image-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: #3882f6 1px solid;
+}
+.image-content p {
+  color: #1f2937d8;
+  margin-top: 1.5em;
+  font-size: 18px;
+  text-align-last: center;
 }
