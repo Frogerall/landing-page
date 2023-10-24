@@ -9,7 +9,7 @@ nav {
   color: #e5e7eb;
   font-size: 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0.8em;
 }
@@ -17,7 +17,7 @@ nav a {
   text-decoration: none;
   color: #f9faf8;
   font-size: 24px;
-  padding-left: 8em;
+
   font-weight: bold;
 }
 nav ul {
@@ -38,8 +38,6 @@ nav li {
 }
 .hero-content {
   width: 38%;
-  margin-left: 10em;
-  margin-right: 1em;
 }
 .hero-content h1 {
   font-size: 48px;
@@ -58,4 +56,9 @@ button {
   padding: 8px 30px;
   font-weight: bold;
   font-size: 18px;
+}
+.information h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
